@@ -36,7 +36,7 @@ The script accepts four positional arguments:
 
 ## Nagios Configuration
 
-To automate notifications, define the commands in your Nagios configuration files (typically \`commands.cfg\`).
+To automate notifications, define the commands in your Nagios configuration files (typically `commands.cfg`).
 
 ### 1. Define Notification Commands
 ```nagios
@@ -54,7 +54,7 @@ define command {
 ```
 
 ### 2. Assign to Contact
-Add these commands to your contact definition in \`contacts.cfg\`:
+Add these commands to your contact definition in `contacts.cfg`:
 
 ```nagios
 define contact {
