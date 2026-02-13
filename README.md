@@ -49,7 +49,7 @@ define command {
 # Host Notification
 define command {
     command_name    notify-host-signalgrid
-    command_line    /usr/local/bin/signalgrid-notify.sh "Host \$HOSTNAME\$ is \$HOSTSTATE\$" "\$HOSTOUTPUT\$" "\$HOSTSTATE\$" "true"
+    command_line    /usr/local/bin/signalgrid-notify.sh "Host \$HOSTNAME\$ is \$HOSTSTATE\$" "\$HOSTOUTPUT\$" "\$HOSTSTATE\$" "false"
 }
 ```
 
