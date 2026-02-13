@@ -58,8 +58,8 @@ Add these commands to your contact definition in `contacts.cfg`:
 
 ```nagios
 define contact {
-    contact_name                    signalgrid_admin
-    alias                           Signalgrid Admin
+    contact_name                    [your_user]
+    alias                           [Your user]
     service_notification_commands   notify-service-by-signalgrid
     host_notification_commands      notify-host-by-signalgrid
 }
