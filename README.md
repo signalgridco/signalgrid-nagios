@@ -42,13 +42,13 @@ To automate notifications, define the commands in your Nagios configuration file
 ```nagios
 # Service Notification
 define command {
-    command_name    notify-service-by-signalgrid
+    command_name    notify-service-signalgrid
     command_line    /usr/local/bin/signalgrid-notify.sh "\$SERVICEDESC\$ on \$HOSTNAME\$ is \$SERVICESTATE\$" "\$SERVICEOUTPUT\$" "\$SERVICESTATE\$" "false"
 }
 
 # Host Notification
 define command {
-    command_name    notify-host-by-signalgrid
+    command_name    notify-host-signalgrid
     command_line    /usr/local/bin/signalgrid-notify.sh "Host \$HOSTNAME\$ is \$HOSTSTATE\$" "\$HOSTOUTPUT\$" "\$HOSTSTATE\$" "true"
 }
 ```
@@ -60,8 +60,8 @@ Add these commands to your contact definition in `contacts.cfg`:
 define contact {
     contact_name                    [your_user]
     alias                           [Your user]
-    service_notification_commands   notify-service-by-signalgrid
-    host_notification_commands      notify-host-by-signalgrid
+    service_notification_commands   notify-service-signalgrid
+    host_notification_commands      notify-host-signalgrid
 }
 ```
 
