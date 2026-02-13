@@ -1,4 +1,4 @@
-# Signalgrid Nagios Notification Plugin
+# Signalgrid Nagios Plugin
 
 This script bridges Nagios monitoring alerts to the **Signalgrid** push notification API. It automatically maps Nagios states (OK, Warning, Critical) to Signalgrid notification types.
 
