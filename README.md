@@ -27,10 +27,10 @@ The script accepts four positional arguments:
 
 | Argument | Description | Mapping / Values |
 | :--- | :--- | :--- |
-| \`\$1\` | **Title** | The headline of the notification. |
-| \`\$2\` | **Body** | The detailed message or plugin output. |
-| \`\$3\` | **State** | \`OK\`, \`UP\`, \`WARNING\`, \`CRITICAL\`, or \`DOWN\`. |
-| \`\$4\` | **Critical Flag** | \`true\` to force high-priority, otherwise \`false\`. |
+| \$1 | **Title** | The headline of the notification. |
+| \$2 | **Body** | The detailed message or plugin output. |
+| \$3 | **State** | \`OK\`, \`UP\`, \`WARNING\`, \`CRITICAL\`, or \`DOWN\`. |
+| \$4 | **Critical Flag** | \`true\` to force high-priority, otherwise \`false\`. |
 
 ---
 
