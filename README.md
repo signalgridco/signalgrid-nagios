@@ -70,5 +70,5 @@ define contact {
 ## Manual Testing
 Verify the integration directly from the CLI:
 ```bash
-/usr/local/bin/signalgrid-notify.sh "Test Alert" "Manual test from terminal" "CRITICAL" "true"
+/usr/local/bin/signalgrid-notify.sh "Test Alert" "Manual test from terminal" "CRITICAL" "false"
 ```
