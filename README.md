@@ -43,13 +43,13 @@ To automate notifications, define the commands in your Nagios configuration file
 # Service Notification
 define command {
     command_name    notify-service-signalgrid
-    command_line    /usr/local/bin/signalgrid-notify.sh "\$SERVICEDESC\$ on \$HOSTNAME\$ is \$SERVICESTATE\$" "\$SERVICEOUTPUT\$" "\$SERVICESTATE\$" "false"
+    command_line    /usr/local/bin/signalgrid-notify.sh "$SERVICEDESC$ on $HOSTNAME$ is $SERVICESTATE$" "$SERVICEOUTPUT$" "$SERVICESTATE$" "false"
 }
 
 # Host Notification
 define command {
     command_name    notify-host-signalgrid
-    command_line    /usr/local/bin/signalgrid-notify.sh "Host \$HOSTNAME\$ is \$HOSTSTATE\$" "\$HOSTOUTPUT\$" "\$HOSTSTATE\$" "false"
+    command_line    /usr/local/bin/signalgrid-notify.sh "Host $HOSTNAME$ is $HOSTSTATE$" "$HOSTOUTPUT$" "$HOSTSTATE$" "false"
 }
 ```
 
