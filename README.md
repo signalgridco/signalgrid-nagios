@@ -1,6 +1,6 @@
-# Signalgrid Nagios Plugin
+# Signalgrid Nagios / Icinga Plugin
 
-This script bridges Nagios monitoring alerts to the **Signalgrid** push notification API. It automatically maps Nagios states (OK, Warning, Critical) to Signalgrid notification types.
+This script bridges Nagios & Icinga monitoring alerts to the **Signalgrid** push notification API. It automatically maps Nagios states (OK, Warning, Critical) to Signalgrid notification types.
 
 ---
 
