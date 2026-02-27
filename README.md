@@ -162,4 +162,4 @@ Verify the integration directly from the CLI:
 ```
 
 ### Website
-[Signalgrid Website](https://signalgrid.co)
+[signalgrid.co](https://signalgrid.co)
