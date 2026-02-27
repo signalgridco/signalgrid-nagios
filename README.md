@@ -38,9 +38,6 @@ CHANNEL_TOKEN="[your-channel-token]"
 
 The script accepts four positional arguments:
 
-  -----------------------------------------------------------------------
-  Argument           Description           Mapping / Values
-  ------------------ --------------------- ------------------------------
   \$1                **Title**             The headline of the
                                            notification.
 
