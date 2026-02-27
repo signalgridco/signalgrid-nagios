@@ -48,7 +48,7 @@ The script accepts four positional arguments:
                                            output.
 
   \$3                **State**             `OK`, `UP`, `WARNING`,
-                                           `CRITICAL`, or `DOWN`.
+                                           `CRITICAL`, or `DOWN`
 
   \$4                **Critical Flag**     `true` to force high-priority,
                                            otherwise `false`.
