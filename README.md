@@ -52,7 +52,6 @@ The script accepts four positional arguments:
 
   \$4                **Critical Flag**     `true` to force high-priority,
                                            otherwise `false`.
-  -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
