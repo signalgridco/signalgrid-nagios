@@ -3,6 +3,7 @@
 ![Icinga](https://img.shields.io/badge/Icinga-2-06062C?logo=icinga&logoColor=white)
 ![Naemon](https://img.shields.io/badge/Naemon-compatible-005f87)
 ![Shinken](https://img.shields.io/badge/Shinken-compatible-4c1)
+[![Website](https://img.shields.io/badge/Website-signalgrid.co-blue)](https://signalgrid.co)
 
 This script bridges Nagios & Icinga monitoring alerts to the
 **Signalgrid** push notification API.\
