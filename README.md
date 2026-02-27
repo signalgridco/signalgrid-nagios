@@ -1,5 +1,5 @@
 # Signalgrid Nagios / Icinga Plugin
-![Nagios](https://img.shields.io/badge/Nagios-Core-cc0000?logo=nagios&logoColor=white)
+[![Nagios](https://img.shields.io/badge/Nagios-Core-cc0000?logo=nagios&logoColor=white)](https://exchange.nagios.org/directory/Plugins/Notifications/signalgrid-push)
 ![Icinga](https://img.shields.io/badge/Icinga-2-06062C?logo=icinga&logoColor=white)
 ![Naemon](https://img.shields.io/badge/Naemon-compatible-005f87)
 ![Shinken](https://img.shields.io/badge/Shinken-compatible-4c1)
