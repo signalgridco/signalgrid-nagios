@@ -166,5 +166,5 @@ Verify the integration directly from the CLI:
 /usr/local/bin/signalgrid-notify.sh "Test Alert" "Manual test from terminal" "CRITICAL" "false"
 ```
 
-### Website
+### For more information
 [signalgrid.co](https://signalgrid.co)
